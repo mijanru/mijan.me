@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>মেহেদী হাসান মিজান</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+        <!--=============== THEME BUTTON ===============-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil.jpg" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile__name">মেহেদী হাসান মিজান</h2>
+                    <h3 class="profile__profession">ইন্ট্রোভার্ট | বইপোকা | প্রোগ্রামার | শিক্ষার্থী</h3>
+
+                    <ul class="profile__social">
+                        <a href="#" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="#" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="assets/pdf/Blank_CV.pdf" class="button">
+                        সিভি ডাউনলোড <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=+8801869969934&text=আসসালামু-আলাইকুম! একটি ওয়েভসাইট বানানোর জন্য আপনার সাথে কথা বলতে চাই। 
+                        " target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+
+                        <!-- Insert your brand name or profile -->
+                        <a href="#" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        আমার লেখা
+                    </button>
+
+                    <button class="filters__button" data-target="#skills">
+                       আমার সম্পর্কে
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <artcile class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__image">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        বিসিএস ক্যাডার | ক্যারিয়ার | চাকরী প্রস্তুতি
+                                    </span>
+                                    <h3 class="projects__title">
+                                        কীসের ভিত্তিতে বিসিএস ক্যাডার চয়েস লিস্ট সাজাবেন?
+                                    </h3>
+                                    <a href="blogs/Test blog 1.html" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </artcile>
+
+                        <artcile class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__image">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">ওয়েভসাইট</span>
+                                    <h3 class="projects__title">পোর্টফলিও ওয়েভসাইট</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </artcile>
+
+                        <artcile class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__image">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">ওয়েভসাইট</span>
+                                    <h3 class="projects__title">রেস্টোরেন্ট ওয়েভসাইট</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </artcile>
+
+                        <artcile class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__image">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">ওয়েভসাইট</span>
+                                    <h3 class="projects__title">ট্র্যাভেল ওয়েভসাইট</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </artcile>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                অভিজ্ঞতা সমূহ
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">বাংলাদেশ ইয়ুথ লিডারশীপ সেন্টার</h3>
+                                            <span class="skills__level">২০২১ - ক্যাম্পাস অ্যাম্বাসেডর</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">রাজশাহী বিশ্ববিদ্যালয় সাইন্স ক্লাব</h3>
+                                            <span class="skills__level">২০২১ - ২০২২ | তথ্য ও প্রযুক্তি বিষয়ক সম্পাদক</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">রাজশাহী বিশ্ববিদ্যালয় হায়ার স্টাডি ক্লাব</h3>
+                                            <span class="skills__level">২০১৯ - ২০২০ | কার্যনির্বাহী সদস্য</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                শিক্ষাগত যোগ্যতা
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">রাজশাহী বিশ্ববিদ্যালয়</h3>
+                                            <span class="skills__level">২০১৯ - ফলিত রসায়ন ও রসায়ন প্রকৌশল বিভাগ</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">উত্তরা হাই স্কুল এন্ড কলেজ</h3>
+                                            <span class="skills__level">২০১৮ - এইচ.এস.সি (বিজ্ঞান বিভাগ)</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">সরকারী কালাচাঁদপুর উচ্চমাধ্যমিক বিদ্যালয়</h3>
+                                            <span class="skills__level">২০১৫ - এস.এস.সি (বিজ্ঞান বিভাগ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h6>
+                    <i class="dev_comment">*** এই ওয়েবসাইটটি এখনও উন্নয়নাধীন ***</i>
+                </h6>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; মেহেদী হাসান মিজান, ২০২৩ | সমস্ত অধিকার সংরক্ষিত
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
